@@ -1,2 +1,0 @@
-# hello
-CV - Frontend developer
