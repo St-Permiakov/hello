@@ -44,7 +44,12 @@ module.exports = (env, argv) => {
                             }
                         },
                         // Compiles Sass to CSS
-                        "sass-loader",
+                        {
+                            loader: "sass-loader",
+                            options: {
+                                additionalData: "@import '@/assets/styles/utils/_services.scss';"
+                            }
+                        }
                     ]
                 },
                 {
