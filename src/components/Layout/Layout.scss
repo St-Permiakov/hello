@@ -1,5 +1,7 @@
 .root {
   position: relative;
+  // grid is better, because it ensures footer is always at the bottom
+  // without additional wrappers and messy stiling of "container"
   display: grid;
   grid-template-rows: 1fr auto;
   grid-template-columns: 1fr;
