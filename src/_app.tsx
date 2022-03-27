@@ -1,11 +1,11 @@
 import React from 'react';
 
-import { Wip } from '@/components/Wip';
+import { Layout } from '@/components/Layout';
 
 import '@/assets/styles/main.scss';
 
 export default function App () {
     return (
-        <Wip />
+        <Layout />
     );
 }

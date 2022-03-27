@@ -7,8 +7,20 @@ html, body {
 }
 
 body {
+  display: flex;
   margin: 0;
   font-family: Lora, serif;
   color: #fff;
-  background-color: $main-bg-color;
+  background-color: $color-main-bg;
+}
+
+#root {
+  display: flex;
+  width: 100%;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
 }
