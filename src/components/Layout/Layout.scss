@@ -29,12 +29,14 @@
 
 .main {
   flex-grow: 1;
+  padding: 100px 0;
 }
 
 .nav {
   position: sticky;
   top: 61px;
   width: 200px;
+  padding: 100px 20px;
   border-left: 1px solid $color-border;
 }
 
